@@ -1,0 +1,47 @@
+
+.grid-container {
+  margin-top: 20px;
+  margin-left: 350px;
+  display: inline-grid;
+}
+
+.border{
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+input{
+  margin: 20px;
+  border: 2px solid black;
+}
+input:hover{
+  position: relative;
+  box-shadow: 4px 2px 2px black;
+}
+
+#btnGrilla{
+  display: block;
+  margin: 20px;
+}
+
+.resaltado-botones{
+  background:lightgreen;
+  color: white;
+}
+
+.img-btn{
+width: 50px;
+height: 50px;
+background-repeat: no-repeat;
+background-size: 80%;
+background-position: center;
+outline: none;
+border-radius: 10px;
+}
+.lapiz{
+  background-image:url("img/pencil.png")
+}
+.goma{
+  background-image:url("img/eraser.png")
+}

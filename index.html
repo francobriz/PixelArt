@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <input type="number" id="inputFila" placeholder="Filas">
+        <input type="number" id="inputColumna" placeholder="Columnas">
+        <label> Color</label>
+        <input type="color" id="aplicarColor">
+        <input type="button" id="btnGrilla" value="Crear">
+        <label>Fondo </label>
+        <input type="color" id="colorFondo">
+        <button class="resaltado-botones img-btn lapiz" id="lapiz"></button>
+        <button id="goma"  class="img-btn goma"></button>
+        <label>Tamaño</label>
+        <input type="number" id="tamañoCelda">
+        <label>Bordes</label>
+        <input type="checkbox"id="checkBordes">
+    </div>
+    <div id="container" class="grid-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
